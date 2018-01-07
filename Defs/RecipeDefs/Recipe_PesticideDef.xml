@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<RecipeDef>
+		<defName>Pesticides_MakePesticide</defName>
+		<label>make pesticide</label>
+		<description>Produce pesticides by mixing together some different odd-looking chemicals. This can then be applied onto crops which prevents blight and increases the plant's growth rate.</description>
+		<jobString>Making pesticide.</jobString>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workAmount>750</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Neutroamine</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HerbalMedicine</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<Pesticides_Pesticide>20</Pesticides_Pesticide>
+		</products>
+		<recipeUsers>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<researchPrerequisite>Pesticides_PesticideResearch</researchPrerequisite>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
+	</RecipeDef>
+
+</Defs>

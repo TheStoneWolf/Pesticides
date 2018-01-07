@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+	
+	<!--====================Pesticide=================-->
+	<ThingDef Class="Pesticides.Pesticides_Pesticide" ParentName="ResourceBase">
+		<defName>Pesticides_Pesticide</defName>
+		<label>pesticide</label>
+		<description>A synthetic chemical applied onto crops to kill or repel unwanted fungi, insects, weeds and other organisms that hamper the crops' growth.</description>
+		<graphicData>
+			<texPath>Things/Pesticides/Pesticides_Pesticide</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stackLimit>400</stackLimit>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<statBases>
+			<MarketValue>2</MarketValue>
+			<Mass>0.05</Mass>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+			<Beauty>-4</Beauty>
+			<DeteriorationRate>1.0</DeteriorationRate>
+		</statBases>
+		<PercentagePointGrowthIncrease>0.4</PercentagePointGrowthIncrease>
+	</ThingDef>
+
+</Defs>

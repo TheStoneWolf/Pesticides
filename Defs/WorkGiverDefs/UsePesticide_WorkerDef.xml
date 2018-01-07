@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+	<WorkGiverDef>
+		<defName>Pesticides_UsePesticideWorkGiver</defName>
+		<label>use pesticide</label>
+		<giverClass>Pesticides.Pesticides_UsePesticideWorkGiver</giverClass>
+		<workType>Growing</workType>
+		<priorityInType>25</priorityInType>
+		<verb>use pesticide</verb>
+		<gerund>using pesticide</gerund>
+		<scanThings>false</scanThings>
+		<scanCells>true</scanCells>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+	
+</Defs>

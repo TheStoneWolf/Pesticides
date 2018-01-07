@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+	<JobDef>
+		<defName>Pesticides_UsePesticideJobDef</defName>
+		<driverClass>Pesticides.Pesticides_UsePesticideJobDriver</driverClass>
+		<reportString>applying pesticide on TargetA.</reportString>
+	</JobDef>
+
+</Defs>
